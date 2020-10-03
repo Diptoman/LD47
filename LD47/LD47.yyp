@@ -140,6 +140,7 @@
     {"id":{"name":"spr_drone_fixing_icon","path":"sprites/spr_drone_fixing_icon/spr_drone_fixing_icon.yy",},"order":5,},
     {"id":{"name":"spr_drone_fixing","path":"sprites/spr_drone_fixing/spr_drone_fixing.yy",},"order":5,},
     {"id":{"name":"ext_path__","path":"scripts/ext_path__/ext_path__.yy",},"order":0,},
+    {"id":{"name":"spr_bg","path":"sprites/spr_bg/spr_bg.yy",},"order":0,},
     {"id":{"name":"TweenEasyRotate","path":"scripts/TweenEasyRotate/TweenEasyRotate.yy",},"order":4,},
     {"id":{"name":"TweenDestroySafe","path":"scripts/TweenDestroySafe/TweenDestroySafe.yy",},"order":1,},
     {"id":{"name":"y__","path":"scripts/y__/y__.yy",},"order":30,},
@@ -285,6 +286,7 @@
     {"folderPath":"folders/Sprites/Others.yy","order":5,"resourceVersion":"1.0","name":"Others","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Menu.yy","order":6,"resourceVersion":"1.0","name":"Menu","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Player.yy","order":3,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Bg.yy","order":8,"resourceVersion":"1.0","name":"Bg","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
@@ -323,6 +325,11 @@
     {"CopyToMask":-1,"filePath":"datafiles/TweenGMS","resourceVersion":"1.0","name":"Script Reference.html","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles/TweenGMS","resourceVersion":"1.0","name":"Update Log.txt","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles/TweenGMS","resourceVersion":"1.0","name":"Safe To Delete Scripts.txt","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/TweenGMS","resourceVersion":"1.0","name":"Demo Projects.txt","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/TweenGMS","resourceVersion":"1.0","name":"Starter Guide.html","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/TweenGMS","resourceVersion":"1.0","name":"Update Log.txt","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/TweenGMS","resourceVersion":"1.0","name":"Safe To Delete Scripts.txt","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/TweenGMS","resourceVersion":"1.0","name":"Script Reference.html","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
     "IDEVersion": "2.3.0.529",
