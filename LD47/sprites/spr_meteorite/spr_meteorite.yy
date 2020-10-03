@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 0,
+  "bbox_right": 145,
   "bbox_top": 0,
-  "bbox_bottom": 0,
+  "bbox_bottom": 143,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 146,
+  "height": 144,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b450fa27-3357-4fe3-80a3-1a48678bcd4c","path":"sprites/spr_meteorite/spr_meteorite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b450fa27-3357-4fe3-80a3-1a48678bcd4c","path":"sprites/spr_meteorite/spr_meteorite.yy",},"LayerId":{"name":"800a3ef0-404c-4b01-a32c-0b171b1bf71b","path":"sprites/spr_meteorite/spr_meteorite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_meteorite","path":"sprites/spr_meteorite/spr_meteorite.yy",},"resourceVersion":"1.0","name":"b450fa27-3357-4fe3-80a3-1a48678bcd4c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b2a21c5e-133c-4115-84a8-79b4da62538d","path":"sprites/spr_meteorite/spr_meteorite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b2a21c5e-133c-4115-84a8-79b4da62538d","path":"sprites/spr_meteorite/spr_meteorite.yy",},"LayerId":{"name":"ce28c157-888d-4890-beb0-3e13d4424bf2","path":"sprites/spr_meteorite/spr_meteorite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_meteorite","path":"sprites/spr_meteorite/spr_meteorite.yy",},"resourceVersion":"1.0","name":"b2a21c5e-133c-4115-84a8-79b4da62538d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f49ff8f7-3b38-45d7-8b44-aada1a2fca06","path":"sprites/spr_meteorite/spr_meteorite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f49ff8f7-3b38-45d7-8b44-aada1a2fca06","path":"sprites/spr_meteorite/spr_meteorite.yy",},"LayerId":{"name":"ce28c157-888d-4890-beb0-3e13d4424bf2","path":"sprites/spr_meteorite/spr_meteorite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_meteorite","path":"sprites/spr_meteorite/spr_meteorite.yy",},"resourceVersion":"1.0","name":"f49ff8f7-3b38-45d7-8b44-aada1a2fca06","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_meteorite","path":"sprites/spr_meteorite/spr_meteorite.yy",},
@@ -36,12 +39,13 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 2.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"6765f975-f808-4e9e-ace4-80608b2b9077","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b450fa27-3357-4fe3-80a3-1a48678bcd4c","path":"sprites/spr_meteorite/spr_meteorite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"562a5d7f-828b-40a3-9fee-cd0c92fea842","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b2a21c5e-133c-4115-84a8-79b4da62538d","path":"sprites/spr_meteorite/spr_meteorite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"fcbef3d3-4188-4145-bb05-e774718e95e1","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f49ff8f7-3b38-45d7-8b44-aada1a2fca06","path":"sprites/spr_meteorite/spr_meteorite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +69,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"800a3ef0-404c-4b01-a32c-0b171b1bf71b","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ce28c157-888d-4890-beb0-3e13d4424bf2","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Meteorite",
