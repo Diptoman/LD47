@@ -18,23 +18,19 @@ if (mouse_check_button(mb_left))
 {
 	_mode = "Drone"
 	if (_pressAmount > _pressMin)
-		_pressAmount -= 1;
+		_pressAmount -= 1.5;
 }
 else if (mouse_check_button(mb_right))
 {
 	_mode = "Hook"
 	if (_pressAmount > _pressMin)
-		_pressAmount -= 1;
+		_pressAmount -= 1.5;
 }
 else
 {
 	if (_pressAmount < _pressMax)
 		_pressAmount += 6;
 }
-
-//Reset Mode
-if (_pressAmount >= _pressMax)
-	_mode = "Drone";
 
 if (_pressAmount < _pressMin)
 	_pressAmount = _pressMin;

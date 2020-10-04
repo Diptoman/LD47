@@ -16,3 +16,4 @@ x = _centreX;
 y = _centreY;
 
 image_angle = point_direction(x,y, mouse_x, mouse_y);
+_canShoot = true;
