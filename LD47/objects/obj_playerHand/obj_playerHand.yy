@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_baseOrbitBlock",
-    "path": "sprites/spr_baseOrbitBlock/spr_baseOrbitBlock.yy",
+    "name": "spr_hand",
+    "path": "sprites/spr_hand/spr_hand.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,16 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_shipPart","path":"objects/obj_shipPart/obj_shipPart.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_playerHand","path":"objects/obj_playerHand/obj_playerHand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Ship",
-    "path": "folders/Objects/Ship.yy",
+    "name": "Player",
+    "path": "folders/Objects/Player.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_shipPart",
+  "name": "obj_playerHand",
   "tags": [],
   "resourceType": "GMObject",
 }

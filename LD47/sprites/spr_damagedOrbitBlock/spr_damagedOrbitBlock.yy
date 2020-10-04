@@ -27,6 +27,12 @@
     {"compositeImage":{"FrameId":{"name":"ca4fb956-dc07-408c-8ee5-bd502a067c3b","path":"sprites/spr_damagedOrbitBlock/spr_damagedOrbitBlock.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"ca4fb956-dc07-408c-8ee5-bd502a067c3b","path":"sprites/spr_damagedOrbitBlock/spr_damagedOrbitBlock.yy",},"LayerId":{"name":"05d7a301-cd56-4619-99a0-f4ad1ebd6ccd","path":"sprites/spr_damagedOrbitBlock/spr_damagedOrbitBlock.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_damagedOrbitBlock","path":"sprites/spr_damagedOrbitBlock/spr_damagedOrbitBlock.yy",},"resourceVersion":"1.0","name":"ca4fb956-dc07-408c-8ee5-bd502a067c3b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b72f5f80-a9f7-40e1-8a81-8ff793834e45","path":"sprites/spr_damagedOrbitBlock/spr_damagedOrbitBlock.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b72f5f80-a9f7-40e1-8a81-8ff793834e45","path":"sprites/spr_damagedOrbitBlock/spr_damagedOrbitBlock.yy",},"LayerId":{"name":"05d7a301-cd56-4619-99a0-f4ad1ebd6ccd","path":"sprites/spr_damagedOrbitBlock/spr_damagedOrbitBlock.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_damagedOrbitBlock","path":"sprites/spr_damagedOrbitBlock/spr_damagedOrbitBlock.yy",},"resourceVersion":"1.0","name":"b72f5f80-a9f7-40e1-8a81-8ff793834e45","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"76ba40e8-e8a6-4874-bd72-8a0367058c16","path":"sprites/spr_damagedOrbitBlock/spr_damagedOrbitBlock.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"76ba40e8-e8a6-4874-bd72-8a0367058c16","path":"sprites/spr_damagedOrbitBlock/spr_damagedOrbitBlock.yy",},"LayerId":{"name":"05d7a301-cd56-4619-99a0-f4ad1ebd6ccd","path":"sprites/spr_damagedOrbitBlock/spr_damagedOrbitBlock.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_damagedOrbitBlock","path":"sprites/spr_damagedOrbitBlock/spr_damagedOrbitBlock.yy",},"resourceVersion":"1.0","name":"76ba40e8-e8a6-4874-bd72-8a0367058c16","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_damagedOrbitBlock","path":"sprites/spr_damagedOrbitBlock/spr_damagedOrbitBlock.yy",},
@@ -36,12 +42,14 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 3.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"75bc2d93-9f15-4a6d-a173-930b0dcf30b2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ca4fb956-dc07-408c-8ee5-bd502a067c3b","path":"sprites/spr_damagedOrbitBlock/spr_damagedOrbitBlock.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7e50e743-5146-4504-ab69-23920c6c47fb","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b72f5f80-a9f7-40e1-8a81-8ff793834e45","path":"sprites/spr_damagedOrbitBlock/spr_damagedOrbitBlock.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"eb555878-c917-48d5-bb94-be5cb58fdcd4","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"76ba40e8-e8a6-4874-bd72-8a0367058c16","path":"sprites/spr_damagedOrbitBlock/spr_damagedOrbitBlock.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,

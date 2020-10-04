@@ -1,6 +1,6 @@
 {
   "bboxMode": 0,
-  "collisionKind": 1,
+  "collisionKind": 5,
   "type": 0,
   "origin": 4,
   "preMultiplyAlpha": false,
@@ -27,6 +27,12 @@
     {"compositeImage":{"FrameId":{"name":"f248c14f-ec21-49d9-8bbd-ecbca0e5165e","path":"sprites/spr_baseOrbitBlock/spr_baseOrbitBlock.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"f248c14f-ec21-49d9-8bbd-ecbca0e5165e","path":"sprites/spr_baseOrbitBlock/spr_baseOrbitBlock.yy",},"LayerId":{"name":"3aa491fd-fc4e-4355-b6c8-cd79cc7c1605","path":"sprites/spr_baseOrbitBlock/spr_baseOrbitBlock.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_baseOrbitBlock","path":"sprites/spr_baseOrbitBlock/spr_baseOrbitBlock.yy",},"resourceVersion":"1.0","name":"f248c14f-ec21-49d9-8bbd-ecbca0e5165e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d99a3e49-2f7c-4421-8a44-a21cd4f95024","path":"sprites/spr_baseOrbitBlock/spr_baseOrbitBlock.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d99a3e49-2f7c-4421-8a44-a21cd4f95024","path":"sprites/spr_baseOrbitBlock/spr_baseOrbitBlock.yy",},"LayerId":{"name":"3aa491fd-fc4e-4355-b6c8-cd79cc7c1605","path":"sprites/spr_baseOrbitBlock/spr_baseOrbitBlock.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_baseOrbitBlock","path":"sprites/spr_baseOrbitBlock/spr_baseOrbitBlock.yy",},"resourceVersion":"1.0","name":"d99a3e49-2f7c-4421-8a44-a21cd4f95024","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7a17430a-7497-4b52-a074-0578181c31db","path":"sprites/spr_baseOrbitBlock/spr_baseOrbitBlock.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7a17430a-7497-4b52-a074-0578181c31db","path":"sprites/spr_baseOrbitBlock/spr_baseOrbitBlock.yy",},"LayerId":{"name":"3aa491fd-fc4e-4355-b6c8-cd79cc7c1605","path":"sprites/spr_baseOrbitBlock/spr_baseOrbitBlock.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_baseOrbitBlock","path":"sprites/spr_baseOrbitBlock/spr_baseOrbitBlock.yy",},"resourceVersion":"1.0","name":"7a17430a-7497-4b52-a074-0578181c31db","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_baseOrbitBlock","path":"sprites/spr_baseOrbitBlock/spr_baseOrbitBlock.yy",},
@@ -36,12 +42,14 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 3.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"e4d20c72-34ff-40ba-8de2-d88dbd249431","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f248c14f-ec21-49d9-8bbd-ecbca0e5165e","path":"sprites/spr_baseOrbitBlock/spr_baseOrbitBlock.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"33f0e989-3e60-4a95-9a27-d25b006a9d53","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d99a3e49-2f7c-4421-8a44-a21cd4f95024","path":"sprites/spr_baseOrbitBlock/spr_baseOrbitBlock.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c602dfcd-fa1e-4dcd-9abf-4919af3a49d9","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7a17430a-7497-4b52-a074-0578181c31db","path":"sprites/spr_baseOrbitBlock/spr_baseOrbitBlock.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
