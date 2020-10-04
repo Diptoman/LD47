@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_meteorite",
-    "path": "sprites/spr_meteorite/spr_meteorite.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,8 +18,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_meteorite","path":"objects/obj_meteorite/obj_meteorite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_meteorite","path":"objects/obj_meteorite/obj_meteorite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +27,7 @@
     "path": "folders/Objects/Meteorites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_meteorite",
+  "name": "obj_control",
   "tags": [],
   "resourceType": "GMObject",
 }

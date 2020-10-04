@@ -29,7 +29,7 @@ else if (mouse_check_button(mb_right))
 else
 {
 	if (_pressAmount < _pressMax)
-		_pressAmount += 6;
+		_pressAmount += 12;
 }
 
 if (_pressAmount < _pressMin)
