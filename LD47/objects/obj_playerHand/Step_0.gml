@@ -3,11 +3,17 @@
 
 if (_player.image_xscale == 1)
 {
-	_direction = 60;
+	if (_player.image_yscale == 1)
+		_direction = 60;
+	else
+		_direction = 300;
 } 
 else
 {
-	_direction = 120;
+	if (_player.image_yscale == 1)
+		_direction = 120;
+	else
+		_direction = 240;
 }
 _centreX = _player.x + lengthdir_x(32, _player.image_angle + _direction) + lengthdir_x(0, point_direction(x,y, mouse_x, mouse_y)); 
 _centreY = _player.y + lengthdir_y(32, _player.image_angle + _direction) + lengthdir_y(0, point_direction(x,y, mouse_x, mouse_y));
