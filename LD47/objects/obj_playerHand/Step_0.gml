@@ -56,8 +56,8 @@ if (mouse_check_button_released(mb_left))
 		_startX = x + lengthdir_x(40, _mouseDir);
 		_startY = y + lengthdir_y(40, _mouseDir);
 		_drone = instance_create_layer(_startX, _startY, "Drone", obj_drone);
-		_pressPercentage = max((obj_cursor._pressMax - obj_cursor._pressAmount)/(obj_cursor._pressMax - obj_cursor._pressMin), .4);
-		_drone._spd = _pressPercentage * 12;
+		_pressPercentage = max((obj_cursor._pressMax - obj_cursor._pressAmount)/(obj_cursor._pressMax - obj_cursor._pressMin), .3);
+		_drone._spd = _pressPercentage * 16;
 		_drone._direction = _mouseDir;
 		obj_player._currentDroneAmount -= 1;
 	}

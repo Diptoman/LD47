@@ -5,7 +5,7 @@ y = room_height/2;
 
 //Create the ship
 _angle = 0;
-_radius = 409;
+_radius = 329;
 
 //Create Ship
 for(i=0; i<16; i++)
