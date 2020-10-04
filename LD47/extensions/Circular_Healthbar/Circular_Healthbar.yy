@@ -7,7 +7,7 @@
   "packageId": "com.darkwalker247.circularhp",
   "productId": "",
   "author": "",
-  "date": "2020-10-03T12:44:05.5543033-07:00",
+  "date": "2020-10-04T01:14:05.5543033+05:30",
   "license": "Free to use, also for commercial games.",
   "description": "",
   "helpfile": "",

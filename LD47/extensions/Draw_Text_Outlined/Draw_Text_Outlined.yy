@@ -7,7 +7,7 @@
   "packageId": "com.nal.drawtextoutline",
   "productId": "",
   "author": "NAL",
-  "date": "2020-10-02T18:27:01.016742-07:00",
+  "date": "2020-10-03T06:57:01.016742+05:30",
   "license": "Free to use, also for commercial games.",
   "description": "",
   "helpfile": "",
