@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 0,
-  "bbox_top": 0,
-  "bbox_bottom": 0,
+  "bbox_left": 1,
+  "bbox_right": 30,
+  "bbox_top": 1,
+  "bbox_bottom": 29,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 32,
+  "height": 32,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"dbc7334f-5f95-4b20-91cf-b1cf5b75e81c","path":"sprites/spr_smokeParticle/spr_smokeParticle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dbc7334f-5f95-4b20-91cf-b1cf5b75e81c","path":"sprites/spr_smokeParticle/spr_smokeParticle.yy",},"LayerId":{"name":"fc32f464-ef6c-43a5-877f-26ca26225181","path":"sprites/spr_smokeParticle/spr_smokeParticle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_smokeParticle","path":"sprites/spr_smokeParticle/spr_smokeParticle.yy",},"resourceVersion":"1.0","name":"dbc7334f-5f95-4b20-91cf-b1cf5b75e81c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b5be2690-8f5f-470e-83c1-e349b1fcea08","path":"sprites/spr_smokeParticle/spr_smokeParticle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b5be2690-8f5f-470e-83c1-e349b1fcea08","path":"sprites/spr_smokeParticle/spr_smokeParticle.yy",},"LayerId":{"name":"e909a5ec-93ff-4ab8-a7cd-afa351c376bb","path":"sprites/spr_smokeParticle/spr_smokeParticle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_smokeParticle","path":"sprites/spr_smokeParticle/spr_smokeParticle.yy",},"resourceVersion":"1.0","name":"b5be2690-8f5f-470e-83c1-e349b1fcea08","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_smokeParticle","path":"sprites/spr_smokeParticle/spr_smokeParticle.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d7f3005f-e61f-471a-b2a6-ed8b23ffc054","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dbc7334f-5f95-4b20-91cf-b1cf5b75e81c","path":"sprites/spr_smokeParticle/spr_smokeParticle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"36987c0b-529a-4d07-a91d-420056c6116b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b5be2690-8f5f-470e-83c1-e349b1fcea08","path":"sprites/spr_smokeParticle/spr_smokeParticle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fc32f464-ef6c-43a5-877f-26ca26225181","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e909a5ec-93ff-4ab8-a7cd-afa351c376bb","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Others",
