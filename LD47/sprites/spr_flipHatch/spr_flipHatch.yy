@@ -55,7 +55,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 41,
-    "yorigin": 45,
+    "yorigin": 42,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_flipHatch","path":"sprites/spr_flipHatch/spr_flipHatch.yy",},

@@ -30,13 +30,16 @@ for(i=0; i<16; i++)
 		_shipBuilding.image_angle = _angle - 90;
 		_shipBuilding._currentAngle = _angle;
 	}
+	
+	//Strut
+	_shipBuilding = instance_create_layer(x, y, "ShipStrut", obj_struts);
 }
 
 instance_create_layer(0, 0, "Character", obj_player);
 
 //Ship variables
-_shipHP = 100;
-_shipResourcenium = 40;
+_shipHP = 30;
+_shipResourcenium = 60;
 _driftSpeed = .1;
 
 //Cursor

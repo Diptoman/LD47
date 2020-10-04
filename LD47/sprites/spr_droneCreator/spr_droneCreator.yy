@@ -55,7 +55,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 60,
-    "yorigin": 80,
+    "yorigin": 72,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_droneCreator","path":"sprites/spr_droneCreator/spr_droneCreator.yy",},
