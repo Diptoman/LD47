@@ -3,6 +3,8 @@
 x = room_width/2;
 y = room_height/2;
 
+_listOfDroneGenerators = ds_list_create();
+
 //Create the ship
 _angle = 0;
 _radius = 329;
@@ -13,7 +15,6 @@ for(i=0; i<16; i++)
     _shipPart = instance_create_layer(x + lengthdir_x(_radius, _angle), y + lengthdir_y(_radius, _angle), "ShipBase", obj_shipPart);
     _shipPart.image_angle = _angle - 90;
 	_shipPart._currentAngle = _angle;
-	_angle += (360/16);
 	
 	//Create Drone Generator
 	if (i mod 4 == 0)
@@ -21,6 +22,8 @@ for(i=0; i<16; i++)
 		_shipBuilding = instance_create_layer(x + lengthdir_x(_radius, _angle), y + lengthdir_y(_radius, _angle), "ShipBuilding", obj_droneGenerator);
 		_shipBuilding.image_angle = _angle - 90;
 		_shipBuilding._currentAngle = _angle;
+		_shipPart._attachedBuilding = _shipBuilding;
+		ds_list_add(_listOfDroneGenerators, _shipBuilding);
 	}
 	
 	//Create Flipper
@@ -29,17 +32,21 @@ for(i=0; i<16; i++)
 		_shipBuilding = instance_create_layer(x + lengthdir_x(_radius, _angle), y + lengthdir_y(_radius, _angle), "ShipBuilding", obj_flipHatch);
 		_shipBuilding.image_angle = _angle - 90;
 		_shipBuilding._currentAngle = _angle;
+		_shipPart._attachedBuilding = _shipBuilding;
 	}
 	
-	//Strut
-	_shipBuilding = instance_create_layer(x, y, "ShipStrut", obj_struts);
+	_angle += (360/16);
 }
+
+//Strut
+_shipBuilding = instance_create_layer(x, y, "ShipStrut", obj_struts);
 
 instance_create_layer(0, 0, "Character", obj_player);
 
 //Ship variables
-_shipHP = 30;
-_shipResourcenium = 60;
+_shipHP = 100;
+_shipResourcenium = 50;
+alarm[0] = room_speed / 2; //Resource drain
 _driftSpeed = .1;
 
 //Cursor
