@@ -47,7 +47,23 @@ if (obj_player._currentDroneAmount <= 0)
 	_canShoot = false;
 }
 
-//Shoot drone
+if (_isHookAttached == false)
+{
+	_canShoot = false;
+}
+
+//Hook test
+_canHook = true;
+if (collision_line(_startX, _startY, _endX, _endY, obj_shipPart, 0, false))
+{
+	_canHook = false;
+}
+if (_isHookAttached == false)
+{
+	_canHook = false;
+}
+
+//Shoot drone/hook
 if (mouse_check_button_released(mb_left))
 {
 	if (_canShoot == true)
@@ -60,5 +76,28 @@ if (mouse_check_button_released(mb_left))
 		_drone._spd = _pressPercentage * 16;
 		_drone._direction = _mouseDir;
 		obj_player._currentDroneAmount -= 1;
+	}
+}
+else if (mouse_check_button_released(mb_right))
+{
+	if ((_canHook == true) && (_isHookAttached == true))
+	{
+		_mouseDir = point_direction(x, y, mouse_x, mouse_y);
+		_startX = x + lengthdir_x(40, _mouseDir);
+		_startY = y + lengthdir_y(40, _mouseDir);
+		_hook = instance_create_layer(_startX, _startY, "Hook", obj_hook);
+		_pressPercentage = max((obj_cursor._pressMax - obj_cursor._pressAmount)/(obj_cursor._pressMax - obj_cursor._pressMin), .4);
+		_hook._spd = _pressPercentage * 20;
+		_hook._direction = _mouseDir;
+		_isHookAttached = false;
+	}
+	else if (_isHookAttached == false)
+	{
+		if (instance_exists(_hook))
+		{
+			_hook._returnJourney = true;
+		}
+		else
+			_isHookAttached = true;
 	}
 }

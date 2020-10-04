@@ -16,15 +16,21 @@ y = mouse_y;
 //Mouse press
 if (mouse_check_button(mb_left))
 {
-	_mode = "Drone"
-	if (_pressAmount > _pressMin)
-		_pressAmount -= 1.5;
+	if (obj_playerHand._isHookAttached == true)
+	{
+		_mode = "Drone";
+		if (_pressAmount > _pressMin)
+			_pressAmount -= 1.5;
+	}
 }
 else if (mouse_check_button(mb_right))
 {
-	_mode = "Hook"
-	if (_pressAmount > _pressMin)
-		_pressAmount -= 1.5;
+	if (obj_playerHand._isHookAttached == true)
+	{
+		_mode = "Hook";
+		if (_pressAmount > _pressMin)
+			_pressAmount -= 1.5;
+	}
 }
 else
 {
