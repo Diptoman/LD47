@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 148,
+  "bbox_right": 118,
   "bbox_top": 0,
-  "bbox_bottom": 139,
+  "bbox_bottom": 111,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 149,
-  "height": 140,
+  "width": 119,
+  "height": 112,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"409f3982-426a-4fd6-af23-d1fc13a880c6","path":"sprites/spr_droneCreator/spr_droneCreator.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"409f3982-426a-4fd6-af23-d1fc13a880c6","path":"sprites/spr_droneCreator/spr_droneCreator.yy",},"LayerId":{"name":"192cc343-fec2-4f62-91a6-ec0819b1fb40","path":"sprites/spr_droneCreator/spr_droneCreator.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_droneCreator","path":"sprites/spr_droneCreator/spr_droneCreator.yy",},"resourceVersion":"1.0","name":"409f3982-426a-4fd6-af23-d1fc13a880c6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"69fc3523-b7db-4d79-8a86-b7ca63d27e8a","path":"sprites/spr_droneCreator/spr_droneCreator.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"69fc3523-b7db-4d79-8a86-b7ca63d27e8a","path":"sprites/spr_droneCreator/spr_droneCreator.yy",},"LayerId":{"name":"3e8d3c9a-69a9-4187-99dc-34f03ee20233","path":"sprites/spr_droneCreator/spr_droneCreator.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_droneCreator","path":"sprites/spr_droneCreator/spr_droneCreator.yy",},"resourceVersion":"1.0","name":"69fc3523-b7db-4d79-8a86-b7ca63d27e8a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_droneCreator","path":"sprites/spr_droneCreator/spr_droneCreator.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"0fe3c8dc-a05a-48cc-a804-8bdb0d63d097","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"409f3982-426a-4fd6-af23-d1fc13a880c6","path":"sprites/spr_droneCreator/spr_droneCreator.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d7dc0a5c-fa85-4e42-a41d-3df03531e4f0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"69fc3523-b7db-4d79-8a86-b7ca63d27e8a","path":"sprites/spr_droneCreator/spr_droneCreator.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 74,
-    "yorigin": 90,
+    "xorigin": 60,
+    "yorigin": 80,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_droneCreator","path":"sprites/spr_droneCreator/spr_droneCreator.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"192cc343-fec2-4f62-91a6-ec0819b1fb40","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3e8d3c9a-69a9-4187-99dc-34f03ee20233","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Ship",
