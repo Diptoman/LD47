@@ -4,7 +4,7 @@
 //Flip
 if (collision_point(x, y, obj_flipHatch, 0, 0))
 {
-	if (keyboard_check_pressed(vk_down) || keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W")) || keyboard_check_pressed(ord("S")) || keyboard_check_pressed(vk_space))
+	if (keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S")) || keyboard_check_pressed(vk_space))
 	{
 		if (_radius == _outerRadius)
 		{

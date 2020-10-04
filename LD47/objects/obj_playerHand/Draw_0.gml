@@ -9,19 +9,6 @@ if (mouse_check_button(mb_left) || mouse_check_button(mb_right))
 	_endX = x + lengthdir_x(2000, _mouseDir);
 	_endY = y + lengthdir_y(2000, _mouseDir);
 	
-	if (obj_player.image_yscale == -1)
-	{
-		_canShoot = true;
-	}
-	else if (collision_line(_startX, _startY, _endX, _endY, obj_shipPart, 0, false))
-	{
-		_canShoot = false;
-	}
-	else
-	{
-		_canShoot = true;
-	}
-	
 	if (_canShoot == true)
 	{
 		draw_set_alpha(.2);

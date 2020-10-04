@@ -5,6 +5,8 @@ _spd = 1;
 _innerRadius = 368;
 _outerRadius = 448;
 _radius = _outerRadius;
+_droneCapacity = 5;
+_currentDroneAmount = 5;
 
 x = room_width/2 + lengthdir_x(_outerRadius, _currentAngle); 
 y = room_height/2 + lengthdir_y(_outerRadius, _currentAngle);
