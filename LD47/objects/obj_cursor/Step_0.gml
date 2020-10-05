@@ -1,8 +1,22 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-if (_mode == "Drone")
+if (instance_exists(obj_hook))
+{
+	if (obj_hook._isAttached == true)
+	{
+		sprite_index = spr_UI_cursorChoice;
+	}
+	else if (_mode == "Drone")
+	{
+		sprite_index = spr_UI_droneCursor_Center;
+	}
+	else if (_mode == "Hook")
+	{
+		sprite_index = spr_UI_hookCursor_Center;
+	}
+}
+else if (_mode == "Drone")
 {
 	sprite_index = spr_UI_droneCursor_Center;
 }
