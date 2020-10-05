@@ -3,3 +3,4 @@
 _attachedBuilding = -1;
 _isDestroyed = false;
 _attachedDrone = -1;
+image_speed = 1;

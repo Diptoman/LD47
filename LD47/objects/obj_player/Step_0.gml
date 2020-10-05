@@ -7,19 +7,22 @@ if (collision_point(x, y, obj_flipHatch, 0, 0))
 {
 	if (keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S")) || keyboard_check_pressed(vk_space))
 	{
-		if (_radius == _outerRadius)
+		if (obj_control._tutStage == -1 || obj_control._tutStage >= 8) 
 		{
-			_radius = _innerRadius;
-			image_yscale = -1;
-		}
-		else
-		{
-			_radius = _outerRadius;
-			image_yscale = 1;
-		}
+			if (_radius == _outerRadius)
+			{
+				_radius = _innerRadius;
+				image_yscale = -1;
+			}
+			else
+			{
+				_radius = _outerRadius;
+				image_yscale = 1;
+			}
 		
-		if (obj_control._tutStage == 8)
-			obj_control._tutStage = 9;
+			if (obj_control._tutStage == 8)
+				obj_control._tutStage = 9;
+		}
 	}
 }
 
