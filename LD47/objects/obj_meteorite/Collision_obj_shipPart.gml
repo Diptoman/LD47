@@ -4,7 +4,7 @@
 
 if (other._isDestroyed == false)
 {
-	obj_ShipControl._shipHP -= 10;
+	obj_ShipControl._shipHP -= 20;
 	other._isDestroyed = true;
 	if (instance_exists(other._attachedBuilding))
 	{

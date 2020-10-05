@@ -82,6 +82,9 @@ if (mouse_check_button_released(mb_left))
 			{
 				with (_hook._target._target) instance_destroy();
 				instance_create_layer(0, 0, "Instances", obj_screenShake);
+				
+				if (obj_control._tutStage == 6)
+					obj_control._tutStage = 7;
 			}
 		}
 	}

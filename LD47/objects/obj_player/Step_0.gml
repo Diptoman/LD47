@@ -17,6 +17,9 @@ if (collision_point(x, y, obj_flipHatch, 0, 0))
 			_radius = _outerRadius;
 			image_yscale = 1;
 		}
+		
+		if (obj_control._tutStage == 8)
+			obj_control._tutStage = 9;
 	}
 }
 
@@ -27,6 +30,9 @@ if (collision_point(x, y, obj_droneGenerator, 0, 0))
 	{
 		_droneGen = collision_point(x, y, obj_droneGenerator, 0, 0);
 		_droneGen._isActive = !_droneGen._isActive;
+		
+		if (obj_control._tutStage == 10)
+			obj_control._tutStage = 11;
 	}
 }
 
@@ -36,6 +42,9 @@ if (keyboard_check(vk_left) || keyboard_check(ord("A")))
 	x = room_width/2 + lengthdir_x(_radius, _currentAngle); 
 	y = room_height/2 + lengthdir_y(_radius, _currentAngle);
 	image_xscale = 1;
+	
+	if (obj_control._tutStage == 1)
+		obj_control._tutStage = 2;
 }
 if (keyboard_check(vk_right) || keyboard_check(ord("D")))
 {
@@ -43,6 +52,9 @@ if (keyboard_check(vk_right) || keyboard_check(ord("D")))
 	x = room_width/2 + lengthdir_x(_radius, _currentAngle); 
 	y = room_height/2 + lengthdir_y(_radius, _currentAngle);
 	image_xscale = -1;
+	
+	if (obj_control._tutStage == 1)
+		obj_control._tutStage = 2;
 }
 
 //Automove

@@ -39,6 +39,11 @@ else
 		if (_target._mode == "Resourcing")
 		{
 			obj_ShipControl._activeResourcing -= 1;
+			
+			if (obj_control._tutStage == 5)
+			{
+				obj_control._tutStage = 6;
+			}
 		}
 		obj_player._currentDroneAmount += 1;
 	}
