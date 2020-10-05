@@ -454,6 +454,11 @@
     {"CopyToMask":-1,"filePath":"datafiles/TweenGMS","resourceVersion":"1.0","name":"Safe To Delete Scripts.txt","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles/TweenGMS","resourceVersion":"1.0","name":"Starter Guide.html","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles/TweenGMS","resourceVersion":"1.0","name":"Update Log.txt","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/TweenGMS","resourceVersion":"1.0","name":"Starter Guide.html","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/TweenGMS","resourceVersion":"1.0","name":"Demo Projects.txt","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/TweenGMS","resourceVersion":"1.0","name":"Script Reference.html","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/TweenGMS","resourceVersion":"1.0","name":"Update Log.txt","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/TweenGMS","resourceVersion":"1.0","name":"Safe To Delete Scripts.txt","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
     "IDEVersion": "2.3.0.529",

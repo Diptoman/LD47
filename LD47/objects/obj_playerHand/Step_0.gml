@@ -54,10 +54,6 @@ if (_isHookAttached == false)
 
 //Hook test
 _canHook = true;
-if (collision_line(_startX, _startY, _endX, _endY, obj_shipPart, 0, false))
-{
-	_canHook = false;
-}
 if (_isHookAttached == false)
 {
 	_canHook = false;
@@ -76,6 +72,16 @@ if (mouse_check_button_released(mb_left))
 		_drone._spd = _pressPercentage * 16;
 		_drone._direction = _mouseDir;
 		obj_player._currentDroneAmount -= 1;
+	}
+	else if (_isHookAttached == false)
+	{
+		if (instance_exists(_hook))
+		{
+			if (_hook._target != -1)
+			{
+				with (_hook._target._target) instance_destroy();
+			}
+		}
 	}
 }
 else if (mouse_check_button_released(mb_right))

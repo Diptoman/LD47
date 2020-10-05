@@ -1,8 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+_attachedDrone = -1;
 image_speed = 0;
 sprite_index = choose(spr_meteorite, spr_meteorite2, spr_meteorite3);
-_spd =  .25 + random(.5) + (obj_control._difficulty/10);
+_spd =  .25 + random(.25) + (obj_control._difficulty/20);
 
 //Choose direction
 if (x < 0)

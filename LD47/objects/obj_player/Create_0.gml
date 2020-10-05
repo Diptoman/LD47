@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 _currentAngle = 0;
-_spd = 1;
+_spd = 2;
 _innerRadius = 304;
 _outerRadius = 360;
 _radius = _outerRadius;

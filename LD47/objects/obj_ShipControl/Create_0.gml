@@ -4,6 +4,7 @@ x = room_width/2;
 y = room_height/2;
 
 _listOfDroneGenerators = ds_list_create();
+_activeResourcing = 0;
 
 //Create the ship
 _angle = 0;
@@ -46,7 +47,7 @@ instance_create_layer(0, 0, "Character", obj_player);
 //Ship variables
 _shipHP = 100;
 _shipResourcenium = 50;
-alarm[0] = room_speed / 2; //Resource drain
+alarm[0] = room_speed / 4; //Resource drain
 _driftSpeed = .1;
 
 //Cursor

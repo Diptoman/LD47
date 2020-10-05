@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Resourcing
 // You can write your code in this editor
 
 _activeDroneGen = 0;
@@ -12,6 +12,6 @@ for(i=0; i<4; i++)
 	}
 }
 
-_shipResourcenium -= (2 + _activeDroneGen) / 25;
+_shipResourcenium += -((2 + _activeDroneGen) / 12) + (_activeResourcing);
 
-alarm[0] = room_speed / 2;
+alarm[0] = room_speed / 4;
