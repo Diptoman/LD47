@@ -12,6 +12,6 @@ for(i=0; i<4; i++)
 	}
 }
 
-_shipResourcenium += -((2 + _activeDroneGen) / 12) + (_activeResourcing);
+_shipResourcenium += -((2 + _activeDroneGen) / 12) + (_activeResourcing / 1.5);
 
 alarm[0] = room_speed / 4;

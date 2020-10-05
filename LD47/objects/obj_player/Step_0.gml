@@ -19,6 +19,16 @@ if (collision_point(x, y, obj_flipHatch, 0, 0))
 	}
 }
 
+//DroneGen control
+if (collision_point(x, y, obj_droneGenerator, 0, 0))
+{
+	if (keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S")) || keyboard_check_pressed(vk_space))
+	{
+		_droneGen = collision_point(x, y, obj_droneGenerator, 0, 0);
+		_droneGen._isActive = !_droneGen._isActive;
+	}
+}
+
 if (keyboard_check(vk_left) || keyboard_check(ord("A")))
 {
 	_currentAngle = (_currentAngle + _spd) mod 360;

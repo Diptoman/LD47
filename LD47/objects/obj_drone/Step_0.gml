@@ -44,3 +44,8 @@ else
 		y = _target.y;
 	}
 }
+
+if (x < -96 || x > room_width + 96 || y < -96 || y > room_height + 96)
+{
+	instance_destroy();
+}
