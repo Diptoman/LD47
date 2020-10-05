@@ -92,11 +92,11 @@ else
 	burst.partSprite = spr_smokeParticle;
 	burst.partIndexAmount = 1;
 
-	burst.num = 10;
+	burst.num = 2;
 	burst.minLife = 10;
 	burst.maxLife = 20;
-	burst.minSize = .5;
-	burst.maxSize = .6;
+	burst.minSize = .35;
+	burst.maxSize = .45;
 	burst.minSpeed = 0;
 	burst.maxSpeed = 0;
 	burst.type = 2;
