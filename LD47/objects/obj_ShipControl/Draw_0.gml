@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+draw_set_alpha(1);
 draw_sprite_ext(spr_shipCenterBack, 0, x, y, image_xscale, image_yscale, 0, c_white, 1);
 //Convert stuff to scale
 _resConverted = round((_shipResourcenium / 100) * 42) + 6;

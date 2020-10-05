@@ -36,7 +36,10 @@ else
 		_target._returnJourney = true;
 		_target._target._attachedDrone = -1;
 		_target._target = -1;
-		obj_ShipControl._activeResourcing -= 1;
+		if (_target._mode == "Resourcing")
+		{
+			obj_ShipControl._activeResourcing -= 1;
+		}
 		obj_player._currentDroneAmount += 1;
 	}
 	

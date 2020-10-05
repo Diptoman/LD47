@@ -11,4 +11,5 @@ if (other._isDestroyed == false)
 		other._attachedBuilding._isDestroyed = true;
 	}
 }
+instance_create_layer(0, 0, "Instances", obj_screenShake);
 instance_destroy();

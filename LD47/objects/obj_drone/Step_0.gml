@@ -25,8 +25,19 @@ else
 		if (_isAttached == false)
 		{
 			_isAttached = true;
-			_mode = "Resourcing";
-			obj_ShipControl._activeResourcing += 1;
+			if (_targetType == "Meteorite")
+			{
+				_mode = "Resourcing";
+				obj_ShipControl._activeResourcing += 1;
+			}
+			else
+			{
+				_mode = "Repairing";
+				if (alarm[0] < 0)
+				{
+					alarm[0] = room_speed * 2;
+				}
+			}
 			_target._attachedDrone = id;
 		}
 		x = _target.x;

@@ -139,7 +139,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_healthbar","path":"sprites/spr_healthbar/spr_healthbar.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_healthbar",
+    "name": "",
     "tags": [],
     "resourceType": "GMSequence",
   },
