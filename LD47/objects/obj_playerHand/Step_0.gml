@@ -84,6 +84,19 @@ if (mouse_check_button_released(mb_left))
 				with (_hook._target._target) instance_destroy();
 				instance_create_layer(0, 0, "Instances", obj_screenShake);
 				audio_play_sound(snd_asteroidDestroy, 1, 0);
+				//Particles
+				burst = instance_create_depth(_hook._target._target.x,_hook._target._target.y, 100, obj_particleBurst);
+				burst.partSprite = spr_meteorite_explode_particles;
+				burst.partIndexAmount = 4;
+
+				burst.num = 20;
+				burst.minLife = 60;
+				burst.maxLife = 90;
+				burst.minSize = .75;
+				burst.maxSize = 1.5;
+				burst.minSpeed = 3;
+				burst.maxSpeed = 5;
+				burst.type = 2;
 				
 				if (obj_control._tutStage == 6)
 					obj_control._tutStage = 7;

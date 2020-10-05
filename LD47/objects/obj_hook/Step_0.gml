@@ -58,6 +58,19 @@ else
 		if (_target != -1)
 		{
 			with (_target) instance_destroy();
+			//Particles
+			burst = instance_create_depth(x,y, 100, obj_particleBurst);
+			burst.partSprite = spr_smokeParticle;
+			burst.partIndexAmount = 1;
+
+			burst.num = 20;
+			burst.minLife = 10;
+			burst.maxLife = 15;
+			burst.minSize = .5;
+			burst.maxSize = .75;
+			burst.minSpeed = 2;
+			burst.maxSpeed = 4;
+			burst.type = 2;
 		}
 		instance_destroy();
 	}

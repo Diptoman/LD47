@@ -85,6 +85,23 @@ if (!keyboard_check(vk_right) && !keyboard_check(ord("D")) && !keyboard_check(vk
 {
 	image_speed = 0;
 }
+else
+{
+	//Particles
+	burst = instance_create_depth(x,y, 100, obj_particleBurst);
+	burst.partSprite = spr_smokeParticle;
+	burst.partIndexAmount = 1;
+
+	burst.num = 10;
+	burst.minLife = 10;
+	burst.maxLife = 20;
+	burst.minSize = .5;
+	burst.maxSize = .6;
+	burst.minSpeed = 0;
+	burst.maxSpeed = 0;
+	burst.type = 2;
+	burst.layerName = "Instances";
+}
 
 //Automove
 _currentAngle = (_currentAngle - obj_ShipControl._driftSpeed) mod 360;
