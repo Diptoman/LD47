@@ -11,5 +11,6 @@ if (other._isDestroyed == false)
 		other._attachedBuilding._isDestroyed = true;
 	}
 }
+audio_play_sound(snd_asteroidHitShip, 1, 0);
 instance_create_layer(0, 0, "Instances", obj_screenShake);
 instance_destroy();

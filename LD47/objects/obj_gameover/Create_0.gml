@@ -17,3 +17,4 @@ if (global.playerScore > global.highscore)
 }
 	
 scr = global.playerScore;
+_txt = "";

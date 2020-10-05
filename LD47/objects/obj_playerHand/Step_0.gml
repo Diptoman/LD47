@@ -73,6 +73,7 @@ if (mouse_check_button_released(mb_left))
 		_drone._spd = _pressPercentage * 16;
 		_drone._direction = _mouseDir;
 		obj_player._currentDroneAmount -= 1;
+		audio_play_sound(snd_droneShooting, 1, 0);
 	}
 	else if (_isHookAttached == false)
 	{
@@ -82,9 +83,14 @@ if (mouse_check_button_released(mb_left))
 			{
 				with (_hook._target._target) instance_destroy();
 				instance_create_layer(0, 0, "Instances", obj_screenShake);
+				audio_play_sound(snd_asteroidDestroy, 1, 0);
 				
 				if (obj_control._tutStage == 6)
 					obj_control._tutStage = 7;
+			}
+			else
+			{
+				audio_play_sound(snd_unableToShoot, 1, 0);
 			}
 		}
 	}
@@ -101,12 +107,14 @@ else if (mouse_check_button_released(mb_right))
 		_hook._spd = _pressPercentage * 20;
 		_hook._direction = _mouseDir;
 		_isHookAttached = false;
+		audio_play_sound(snd_hookShooting, 1, 0);
 	}
 	else if (_isHookAttached == false)
 	{
 		if (instance_exists(_hook))
 		{
 			_hook._returnJourney = true;
+			audio_play_sound(snd_pull, 1, 0);
 		}
 		else
 			_isHookAttached = true;

@@ -11,3 +11,9 @@ _difficulty = 1;
 //alarm[1] = room_speed; //Meteorite spawn
 
 _tutStage = 1;
+
+if ((audio_get_name(global.music) != "snd_bgMain") && (audio_get_name(global.music) != "snd_bg2") && (audio_get_name(global.music) != "snd_bg3"))
+{
+	audio_stop_sound(global.music);
+	global.music = audio_play_sound(snd_bgMain, 10, false);
+}

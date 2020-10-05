@@ -5,6 +5,9 @@
 
 //TweenFire(id, EaseOutQuad, 0, false, 0, 60, image_alpha__, 0, 1);
 
+audio_stop_all();
+global.music = audio_play_sound(snd_menu, 10, true);
+
 instance_create_layer(room_width/2, room_height/2, "Bg", obj_bg);
 
 data = file_text_open_read("GameData.dat");

@@ -107,6 +107,7 @@ if (_tutStage == 3 || _tutStage == 7 || _tutStage == 11 || _tutStage == 12)
 		alarm[0] = room_speed * 20; //Difficulty Increase
 		alarm[1] = room_speed; //Meteorite spawn
 		_tutString = "";
+		obj_player._currentDroneAmount = 5 - instance_number(obj_drone);
 	}
 }
 
@@ -125,6 +126,8 @@ if keyboard_check_pressed(vk_escape)
 		{
 			ds_list_find_value(obj_ShipControl._listOfDestroyedParts, i)._isDestroyed = false;
 		}
+		
+		obj_player._currentDroneAmount = 5 - instance_number(obj_drone);
 	}
 	else
 	{

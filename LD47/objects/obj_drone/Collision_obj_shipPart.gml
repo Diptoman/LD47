@@ -4,4 +4,5 @@ if (_target == -1) && (other._attachedDrone == -1) && (_returnJourney == false) 
 {
 	_target = other;
 	_targetType = "ShipPart";
+	audio_play_sound(snd_droneAttaching, 1, 0);
 }

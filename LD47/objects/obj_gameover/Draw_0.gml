@@ -19,7 +19,7 @@ draw_set_font(fnt_giant);
 draw_set_halign(fa_center);
 draw_set_valign(fa_center);
 draw_set_color(c_red);
-draw_text_outline(x, y, "Satelloop Destroyed.#Game Over!", 8, c_black, 64);
+draw_text_outline(x, y, _txt +"#Game Over!", 8, c_black, 64);
 
 draw_set_color(c_white);
 draw_set_font(fnt_gameUI);
