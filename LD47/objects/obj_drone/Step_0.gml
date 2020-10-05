@@ -49,3 +49,19 @@ if (x < -96 || x > room_width + 96 || y < -96 || y > room_height + 96)
 {
 	instance_destroy();
 }
+
+if (_target != -1)
+{
+	if (_mode == "Resourcing")
+	{
+		sprite_index = spr_drone_extracting
+	}
+	else if (_mode == "Repairing")
+	{
+		sprite_index = spr_drone_fixing;
+	}
+}
+else
+{
+	sprite_index = spr_drone;
+}
