@@ -9,7 +9,7 @@
   "swfPrecision": 2.525,
   "bbox_left": 0,
   "bbox_right": 118,
-  "bbox_top": 18,
+  "bbox_top": 0,
   "bbox_bottom": 111,
   "HTile": false,
   "VTile": false,
@@ -24,24 +24,68 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"69fc3523-b7db-4d79-8a86-b7ca63d27e8a","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"69fc3523-b7db-4d79-8a86-b7ca63d27e8a","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"LayerId":{"name":"3e8d3c9a-69a9-4187-99dc-34f03ee20233","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_DroneCreatorDamaged","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","name":"69fc3523-b7db-4d79-8a86-b7ca63d27e8a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"328f3987-3632-4a17-8cc0-a1701396c254","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"328f3987-3632-4a17-8cc0-a1701396c254","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"LayerId":{"name":"8a18ae8e-5a70-4390-9f5a-963e85bc6761","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_DroneCreatorDamaged","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","name":"328f3987-3632-4a17-8cc0-a1701396c254","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"954e842d-2d08-480b-9e50-51ef67d16d2d","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"954e842d-2d08-480b-9e50-51ef67d16d2d","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"LayerId":{"name":"8a18ae8e-5a70-4390-9f5a-963e85bc6761","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_DroneCreatorDamaged","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","name":"954e842d-2d08-480b-9e50-51ef67d16d2d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"72ed8f67-068e-4a5b-b54e-2af164dffaf5","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"72ed8f67-068e-4a5b-b54e-2af164dffaf5","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"LayerId":{"name":"8a18ae8e-5a70-4390-9f5a-963e85bc6761","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_DroneCreatorDamaged","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","name":"72ed8f67-068e-4a5b-b54e-2af164dffaf5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"586ac709-303f-46d9-bded-df8af99cedfe","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"586ac709-303f-46d9-bded-df8af99cedfe","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"LayerId":{"name":"8a18ae8e-5a70-4390-9f5a-963e85bc6761","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_DroneCreatorDamaged","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","name":"586ac709-303f-46d9-bded-df8af99cedfe","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ab8f2709-f3c6-4288-8c39-4e5eb2039d46","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ab8f2709-f3c6-4288-8c39-4e5eb2039d46","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"LayerId":{"name":"8a18ae8e-5a70-4390-9f5a-963e85bc6761","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_DroneCreatorDamaged","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","name":"ab8f2709-f3c6-4288-8c39-4e5eb2039d46","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"51dd8e06-ba57-456a-90f2-6c8f40175786","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"51dd8e06-ba57-456a-90f2-6c8f40175786","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"LayerId":{"name":"8a18ae8e-5a70-4390-9f5a-963e85bc6761","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_DroneCreatorDamaged","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","name":"51dd8e06-ba57-456a-90f2-6c8f40175786","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e81e7cd6-b83f-4dc5-9f58-01bb4c66da8b","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e81e7cd6-b83f-4dc5-9f58-01bb4c66da8b","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"LayerId":{"name":"8a18ae8e-5a70-4390-9f5a-963e85bc6761","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_DroneCreatorDamaged","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","name":"e81e7cd6-b83f-4dc5-9f58-01bb4c66da8b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ba9e4ba0-f18a-4eb9-be04-a60f3f55c9d0","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ba9e4ba0-f18a-4eb9-be04-a60f3f55c9d0","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"LayerId":{"name":"8a18ae8e-5a70-4390-9f5a-963e85bc6761","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_DroneCreatorDamaged","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","name":"ba9e4ba0-f18a-4eb9-be04-a60f3f55c9d0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"59c23178-d692-4728-a18f-f5aef8849d0c","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"59c23178-d692-4728-a18f-f5aef8849d0c","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"LayerId":{"name":"8a18ae8e-5a70-4390-9f5a-963e85bc6761","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_DroneCreatorDamaged","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","name":"59c23178-d692-4728-a18f-f5aef8849d0c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d61b9238-344f-4456-89c8-29dce23817ae","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d61b9238-344f-4456-89c8-29dce23817ae","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"LayerId":{"name":"8a18ae8e-5a70-4390-9f5a-963e85bc6761","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_DroneCreatorDamaged","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","name":"d61b9238-344f-4456-89c8-29dce23817ae","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"89f38c36-f510-4ab0-98cf-684bb3279669","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"89f38c36-f510-4ab0-98cf-684bb3279669","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"LayerId":{"name":"8a18ae8e-5a70-4390-9f5a-963e85bc6761","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_DroneCreatorDamaged","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","name":"89f38c36-f510-4ab0-98cf-684bb3279669","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"361485d0-f745-4808-9f99-a59bc17e5f1a","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"361485d0-f745-4808-9f99-a59bc17e5f1a","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"LayerId":{"name":"8a18ae8e-5a70-4390-9f5a-963e85bc6761","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_DroneCreatorDamaged","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","name":"361485d0-f745-4808-9f99-a59bc17e5f1a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_DroneCreatorDamaged","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 60.0,
+    "playbackSpeed": 9.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 12.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"2e98a89d-3d70-4595-a321-feeab0bfa942","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"69fc3523-b7db-4d79-8a86-b7ca63d27e8a","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b911e143-4a76-4dbb-9ec0-bc634522f189","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"328f3987-3632-4a17-8cc0-a1701396c254","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a9eaa16c-e154-4720-8e20-054a7307b291","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"954e842d-2d08-480b-9e50-51ef67d16d2d","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"22edcaa9-0bd3-4586-bb8f-3fd0e8131d78","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"72ed8f67-068e-4a5b-b54e-2af164dffaf5","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"42b564b6-a082-4519-aa32-3816538e1c97","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"586ac709-303f-46d9-bded-df8af99cedfe","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9aba84cf-5866-4ef8-bcf3-259fa784cd9d","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ab8f2709-f3c6-4288-8c39-4e5eb2039d46","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b9e51650-6ed5-4b35-b152-633c1b1f7f5e","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"51dd8e06-ba57-456a-90f2-6c8f40175786","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ecda4d8a-fb42-48ad-b7ad-51da4ef47582","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e81e7cd6-b83f-4dc5-9f58-01bb4c66da8b","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"bacb4b38-f9cc-475c-b975-57274386faba","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ba9e4ba0-f18a-4eb9-be04-a60f3f55c9d0","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5a80731f-788c-46cd-b4a1-aa8a8533ead5","Key":8.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"59c23178-d692-4728-a18f-f5aef8849d0c","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ead24435-fc34-423f-bd98-3a46e0d4a274","Key":9.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d61b9238-344f-4456-89c8-29dce23817ae","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2cc0faa5-c1ff-4953-93f3-2eb594a83fb8","Key":10.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"89f38c36-f510-4ab0-98cf-684bb3279669","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2ba18e99-3bbf-4716-994b-789fe314d7b6","Key":11.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"361485d0-f745-4808-9f99-a59bc17e5f1a","path":"sprites/spr_DroneCreatorDamaged/spr_DroneCreatorDamaged.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +109,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3e8d3c9a-69a9-4187-99dc-34f03ee20233","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8a18ae8e-5a70-4390-9f5a-963e85bc6761","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Ship",
