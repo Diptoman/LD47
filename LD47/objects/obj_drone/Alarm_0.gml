@@ -9,4 +9,6 @@ if (_isAttached) && (_mode == "Repairing") && (_target != -1)
 	{
 		_target._attachedBuilding._isDestroyed = false;
 	}
+	
+	instance_destroy();
 }
