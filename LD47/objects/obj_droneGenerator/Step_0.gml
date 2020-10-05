@@ -34,7 +34,7 @@ if ((_isActive == true) && (_associatedDrone == -1) && (_isDestroyed == false))
 {
 	if (alarm[0] < 0)
 	{
-		alarm[0] = room_speed * 3;
+		alarm[0] = room_speed * 2;
 	}
 }
 }
