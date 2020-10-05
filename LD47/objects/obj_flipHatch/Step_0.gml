@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if (!instance_exists(obj_gameover)) {
 //Automove
 _currentAngle = (_currentAngle - obj_ShipControl._driftSpeed) mod 360;
 x = room_width/2 + lengthdir_x(obj_ShipControl._radius, _currentAngle); 
@@ -18,4 +19,5 @@ if (_isDestroyed == true)
 else
 {
 	sprite_index = spr_flipHatch;
+}
 }

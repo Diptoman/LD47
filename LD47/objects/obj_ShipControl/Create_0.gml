@@ -3,6 +3,8 @@
 x = room_width/2;
 y = room_height/2;
 
+global.playerScore = 0;
+alarm[1] = room_speed;
 _listOfDroneGenerators = ds_list_create();
 _activeResourcing = 0;
 
@@ -24,6 +26,14 @@ for(i=0; i<16; i++)
 		_shipBuilding.image_angle = _angle - 90;
 		_shipBuilding._currentAngle = _angle;
 		_shipPart._attachedBuilding = _shipBuilding;
+		if (i != 4)
+		{
+			_shipBuilding._isActive = false;
+		}
+		else
+		{
+			_shipBuilding._isActive = true;
+		}
 		ds_list_add(_listOfDroneGenerators, _shipBuilding);
 	}
 	

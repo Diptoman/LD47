@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if (!instance_exists(obj_gameover)) {
 if (obj_player.image_xscale == 1)
 {
 	if (obj_player.image_yscale == 1)
@@ -107,4 +108,5 @@ else if (mouse_check_button_released(mb_right))
 		else
 			_isHookAttached = true;
 	}
+}
 }

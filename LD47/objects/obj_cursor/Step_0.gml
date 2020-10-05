@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
 if (_mode == "Drone")
 {
 	sprite_index = spr_UI_droneCursor_Center;
@@ -14,6 +15,7 @@ x = mouse_x;
 y = mouse_y;
 
 //Mouse press
+if (!instance_exists(obj_gameover)) {
 if (mouse_check_button(mb_left))
 {
 	if (obj_playerHand._isHookAttached == true)
@@ -42,3 +44,4 @@ if (_pressAmount < _pressMin)
 	_pressAmount = _pressMin;
 if (_pressAmount > _pressMax)
 	_pressAmount = _pressMax;
+}

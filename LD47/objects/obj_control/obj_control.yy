@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Player",
-    "path": "folders/Objects/Player.yy",
+    "name": "Control",
+    "path": "folders/Objects/Control.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_control",
