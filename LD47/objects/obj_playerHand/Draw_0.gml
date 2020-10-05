@@ -18,6 +18,15 @@ if (mouse_check_button(mb_left) || mouse_check_button(mb_right))
 			draw_set_color(c_yellow);
 		draw_line_width(_startX, _startY, _endX, _endY, 4);
 	}
+	else if (_canHook == true)
+	{
+		if (obj_cursor._mode == "Hook")
+		{
+			draw_set_alpha(.2);
+			draw_set_color(c_yellow);
+			draw_line_width(_startX, _startY, _endX, _endY, 4);
+		}
+	}
 }
 
 draw_set_alpha(1);

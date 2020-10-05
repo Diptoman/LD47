@@ -17,3 +17,10 @@ if (audio_get_name(global.music) == "snd_bg2")
 		global.music = audio_play_sound(snd_bg3, 10, true);
 	}
 }
+
+if keyboard_check_pressed(vk_f1)
+{
+   screen_save(working_directory + "\Screens\Screen_"+string(num)+".png")
+   num += 1;
+
+}
