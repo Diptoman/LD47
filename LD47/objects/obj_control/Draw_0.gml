@@ -53,7 +53,10 @@ draw_set_halign(fa_center);
 draw_set_valign(fa_center);
 draw_set_color(c_white);
 draw_text_outline(room_width / 2, 90, _tutString, 4, c_black, 64);
+//draw_set_halign(fa_left);
+//draw_text_outline(8, 90, string(global.music) + "  dddd  " + string(audio_get_name(global.music)), 4, c_black, 64);
 draw_set_color(c_red);
+draw_set_halign(fa_center);
 if (_tutStage != -1)
 	draw_text_outline(room_width / 2, room_height - 90, "Press Escape to skip tutorial", 4, c_black, 64);
 

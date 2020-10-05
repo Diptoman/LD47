@@ -3,6 +3,16 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if (y > (room_height/2 - 224))
+{
+	if ( y - 16 > room_height/2 - 224)
+		y -= (max(16, abs((y-(room_height/2 - 224))/3)));
+}
+else
+{
+	//y = room_height/2 - 224;
+}
+
 if (keyboard_check_pressed(vk_escape))
 {
 	room_goto(rm_menu);

@@ -12,7 +12,5 @@ _difficulty = 1;
 
 _tutStage = 1;
 
-audio_stop_sound(global.music);
-global.music = audio_play_sound(snd_bgMain, 10, false);
-
 num = 0;
+_audioState = 0;

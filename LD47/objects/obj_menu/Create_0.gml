@@ -1,7 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+x = 0; 
+y = 0;
 
-//TweenFire(id, EaseOutQuad, 0, false, 0, 45, x__, - 1366, x);
+//TweenFire(id, EaseOutQuad, 0, false, 0, 45, x__, - 1920, x);
 
 //TweenFire(id, EaseOutQuad, 0, false, 0, 60, image_alpha__, 0, 1);
 
@@ -31,3 +33,20 @@ if (ds_list_size(global.gamedata) == 0)
 }
 
 global.highscore = ds_list_find_value(global.gamedata, 0);
+
+if (os_browser == os_browser)
+{
+var a = browser_width;
+var b = browser_height;
+
+if(a < room_width)
+{
+	b = (room_height/room_width) * a
+	window_set_size(a, b);
+}
+else if(b < room_height)
+{
+	a = (room_width/room_height) * b
+	window_set_size(a, b);
+}
+}

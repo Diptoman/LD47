@@ -3,6 +3,17 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+draw_self();
+
+if audio_system_is_available()
+{
+	//show_message("AA");
+	if (!audio_is_playing(global.music))
+	{
+		global.music = audio_play_sound(snd_menu, 10, true);
+	}
+}
+
 if (keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_enter) || mouse_check_button(mb_left))
 {
 	//audio_play_sound(snd_connect, 10, 0);

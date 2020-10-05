@@ -33,9 +33,4 @@ if (_shipHP <= 0)
 		a._txt = "Satelloop Destroyed!";
 	}
 }
-
-if (keyboard_check_pressed(vk_control))
-{
-	_shipHP -= 100;
-}
 }

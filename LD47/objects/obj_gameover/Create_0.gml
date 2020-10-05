@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-TweenFire(id, EaseOutQuad, 0, false, 0, 45, y__, room_height + 384, room_height / 2 - 224);
+//TweenFire(id, EaseOutQuad, 0, false, 0, 45, y__, room_height + 384, room_height / 2 - 224);
+y = room_height + 480;
 
 hiscore = false;
 scr = 0;
