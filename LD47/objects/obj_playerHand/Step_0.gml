@@ -80,6 +80,7 @@ if (mouse_check_button_released(mb_left))
 			if (_hook._target != -1)
 			{
 				with (_hook._target._target) instance_destroy();
+				instance_create_layer(0, 0, "Instances", obj_screenShake);
 			}
 		}
 	}
